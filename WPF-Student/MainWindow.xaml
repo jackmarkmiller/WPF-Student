@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Sooner ID: " HorizontalAlignment="Left" Margin="70,58,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="id1" HorizontalAlignment="Left" Height="23" Margin="162,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="82,112,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="23" Margin="162,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="GPA:" HorizontalAlignment="Left" Margin="82,175,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="gpa" HorizontalAlignment="Left" Height="23" Margin="162,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Label Content="DOB:" HorizontalAlignment="Left" Margin="82,231,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="dob" HorizontalAlignment="Left" Height="23" Margin="162,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="id" Content="Button" HorizontalAlignment="Left" Margin="277,294,0,0" VerticalAlignment="Top" Width="188" Height="115" Background="#FFF31A1A" FontFamily="Showcard Gothic" FontSize="14" Click="Button_Click"/>
+        <TextBlock x:Name="output" HorizontalAlignment="Left" Margin="423,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="169" Width="297" Text="Hello World!"/>
+
     </Grid>
 </Window>
